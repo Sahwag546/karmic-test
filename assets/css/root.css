@@ -7,20 +7,16 @@
     --color-white: #FFFFFF;
      --color-black: #040404;
     --color-white-gray: #bebfbf;
+    --color-grey:#343434;
+    --color-light-grey:#1E1E1E;
+    --color-dark-grey:#3B3B3B;
     /* font-size */
     --fs-16px: 16px;
+     --fs-20px: 20px;
+      --fs-40px: 35px;
      --fs-56px: 56px;
     --fs-64px: 64px;
 }
 
-@media (max-width:992px) {
-    :root {
-        --fw-300: 300;
-        --fw-400: 400;
-        --fw-500: 500;
-        --fw-600: 600;
-        --fw-700: 700;
-        --fs-64px: 57px;
-    }
-}
+
  
