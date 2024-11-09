@@ -280,7 +280,10 @@ li {
 .parent-svg:hover{
     background: var(--color-dark-grey);
 }
-
+.animate__pulse {
+  --animate-duration: 3s !important;
+  animation-iteration-count: infinite;
+}
 .parent-svg:hover svg path{
     fill: white !important;
 

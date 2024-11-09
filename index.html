@@ -3,17 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/root.css" />
     <title>karmic</title>
+      <!-- style and root link  -->
+       <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/root.css" />
+    <!-- bootstrap link  -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <!-- animation link  -->
+       <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   </head>
-
+  
   <body>
     <header class="bg-img flex-direction-column position-relative pb-70">
         <div class="arrow">
@@ -95,7 +102,14 @@
                 <div class="d-flex gap-32 d-f-md">
                   <div class="btn-2 d-flex align-items-center gap-10">
                     Get Started
-                    <img src="./assets/image/svg/Arrow svg.svg" alt="" />
+                    <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <path class="change-color" d="M17.495 6.49497C17.7683 6.22161 17.7683 5.77839 17.495 5.50503L13.0402 1.05025C12.7668 0.776886 12.3236 0.776886 12.0503 1.05025C11.7769 1.32362 11.7769 1.76684 12.0503 2.0402L16.01 6L12.0503 9.9598C11.7769 10.2332 11.7769 10.6764 12.0503 10.9497C12.3236 11.2231 12.7668 11.2231 13.0402 10.9497L17.495 6.49497ZM0 6.7H17V5.3H0V6.7Z" fill="black"/>
+                 </svg>
+                 <style>
+                    .btn-2:hover svg .change-color{
+                        fill: white;
+                    }
+                 </style>
                   </div>
                   <div class="btn-3 d-flex align-items-center gap-10">
                     Read More
@@ -104,7 +118,7 @@
               </div>
             </div>
             <div class="col-12 col-lg-5">
-                <div class="pt-40-sm">
+                <div class="pt-40-sm animate__animated animate__pulse">
               <img class="w-100" src="./assets/image/webp/nubbies-img.png" alt="nubbies" />
               </div>
             </div>
@@ -195,7 +209,7 @@
             <img src="./assets/image/svg/upcoming svg.png" alt="" />
           </div>
         </div>
-        <div class="para-2 d-flex justify-content-center pt-18">
+        <div class="para-2 text-center d-flex justify-content-center pt-18">
           We are builders, innovaters, and believers.
         </div>
         <div class="para-2 d-flex justify-content-center pt-1 mx-w">
@@ -230,7 +244,7 @@
     <footer class="bg-img-2">
       <div class="container">
         <img
-          class="d-flex justify-content-center mx-auto"
+          class="d-flex justify-content-center mx-auto animate__animated animate__pulse"
           src="./assets/image/webp/footer-img-karmic.png"
           alt=""
         />
