@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&family=Sunflower:wght@300&display=swap");
 
 .bg-img {
-  background-image: url(/assets/image/webp/bg-img-first-section.png);
+  background-image: url(/assets/image/webp/bg-img-first-section.webp);
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
@@ -149,7 +149,7 @@ li {
 
 /* section-2 details  */
 .bg-img-2 {
-  background-image: url(/assets/image/webp/section-2-bg-img.png);
+  background-image: url(/assets/image/webp/section-2-bg-img.webp);
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
