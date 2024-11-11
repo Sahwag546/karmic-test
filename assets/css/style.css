@@ -1,13 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sunflower:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&family=Sunflower:wght@300&display=swap");
 
-.bg-img {
-  background-image: url(/assets/image/webp/bg-img-first-section.webp);
-  background-repeat: no-repeat;
-  width: 100%;
-  background-size: cover;
-}
-
 /* nav bar  */
 li {
   list-style: none;
@@ -62,6 +55,37 @@ li {
 
 /* section-1 details  */
 
+.bg-img {
+  background-image: url(/assets/image/webp/section-2-bg-img.webp);
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  overflow: hidden;
+}
+.bg-layer{
+  position: relative;
+}
+.bg-layer::before{
+  content: "";
+  position: absolute;
+  width: 110%;
+  background: #E4E4E4 !important;
+  height: 85vh;
+  top: 140px;
+  transform: translate(-5%) rotate(-3deg) !important;
+  z-index: 1;
+  opacity: 0.1;
+}
+.bg-layer::after{
+  content: "";
+  position: absolute;
+  width: 110%;
+  background:  #282828!important;
+  height: 85vh;
+  top: 150px;
+  transform: translate(-5%) rotate(-3deg) !important;
+}
 .heading {
   color: var(--color-white);
   font-family: "Sunflower", sans-serif;
